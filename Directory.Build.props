@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+	<DefaultItemExcludes>$(DefaultItemExcludes);obj/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Atividade – Técnicas de Programação II – TDD com ASP.NET Core MVC'">
+	<BaseIntermediateOutputPath>$(MSBuildThisFileDirectory).artifacts\obj\mvc\</BaseIntermediateOutputPath>
+	<MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Atividade – Técnicas de Programação II – TDD com ASP.NET Core MVC.Core'">
+	<BaseIntermediateOutputPath>$(MSBuildThisFileDirectory).artifacts\obj\core\</BaseIntermediateOutputPath>
+	<MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'Atividade – Técnicas de Programação II – TDD com ASP.NET Core MVC.Tests'">
+	<BaseIntermediateOutputPath>$(MSBuildThisFileDirectory).artifacts\obj\tests\</BaseIntermediateOutputPath>
+	<MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+</Project>

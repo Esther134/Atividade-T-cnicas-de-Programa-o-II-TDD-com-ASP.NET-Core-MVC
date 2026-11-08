@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net10.0</TargetFramework>
+	<AssemblyName>AtividadeMvc.Core</AssemblyName>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<RootNamespace>Atividade___Técnicas_de_Programação_II___TDD_com_ASP.NET_Core_MVC</RootNamespace>
+  </PropertyGroup>
+
+</Project>
